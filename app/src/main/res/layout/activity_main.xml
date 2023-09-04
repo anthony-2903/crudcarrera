@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:gravity="center|center_vertical"
+            android:text="REGISTRO"
+            android:textColorLink="#CA1E1E"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:gravity="bottom"
+            android:text="ALUMNO"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CARRERA"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical"
+            android:paddingTop="20dp"
+            android:text="AGREGAR" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical"
+            android:paddingTop="20dp"
+            android:text="EDITAR" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical"
+            android:paddingBottom="20dp"
+            android:text="ELIMINAR" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical"
+            android:paddingBottom="20dp"
+            android:text="MOSTRAR"
+            android:textColorHighlight="@color/design_default_color_secondary"
+            android:textColorLink="@color/design_default_color_secondary_variant" />
+
+    </LinearLayout>
+</RelativeLayout>
